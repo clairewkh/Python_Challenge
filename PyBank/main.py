@@ -12,7 +12,7 @@ with open(csvpath1) as data1:            #Open and read data
 
     read1 = csv.reader(data1,delimiter = ",")
     
-    first_row = next(read1)
+    first_row = next(read1)        #skip and store header
     budget_data = list(read1)
     rows_count = len(budget_data)
     
