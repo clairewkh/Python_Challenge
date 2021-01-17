@@ -1,7 +1,7 @@
 # Python_Challenge
 Claire Wong
 1.15.2021
-Python HW-Py Me Up, Charlie
+Python-Py Me Up, Charlie
 
 
 Python_Challenge includes two parts, pyBank and pyPoll. 
