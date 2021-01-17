@@ -1,3 +1,4 @@
+#Importing csv and os
 import csv
 import os
 
@@ -14,7 +15,7 @@ with open (path2) as data2:
     Otooley_counts = 0
     vote_result = []
     win_name = ""
-    skip_first = next(data2)    #Skip Header
+    skip_first = next(data2)    #Skip and store Header
 
 #Writing a loop to get result of the Poll
     for c in read2:
